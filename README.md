@@ -29,8 +29,8 @@ Run the following command: RegAsm ClassicASP.Bcrypt.dll /tlb /codebase
 	' Generate a hash
 	Bcrypt.Hash("myPassword",10) ' work factor >=4 <=31
 	
-	' Verify a verify
-	Bcrypt.Hash("myPassword","$2a$10$s9THkLgv6bJU9Qio8Id2N.FpB79P5w4zdsHvzMAxHK/ht3KxQnsca") ' True / False
+	' Verify a hash
+	Bcrypt.Verify("myPassword","$2a$10$s9THkLgv6bJU9Qio8Id2N.FpB79P5w4zdsHvzMAxHK/ht3KxQnsca") ' True / False
 
 ## Example output from bcrypt.asp
 
