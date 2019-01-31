@@ -1,4 +1,4 @@
-Argon2 hashing algorithm implemented in VBscript for Classic ASP
+Bcrypt hashing algorithm implemented in VBscript for Classic ASP
 
 ## INSTALLATION:
 Uses BCrypt.Net (A .Net port of jBCrypt implemented in C#)
