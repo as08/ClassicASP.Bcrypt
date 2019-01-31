@@ -26,8 +26,11 @@ Run the following command: RegAsm ClassicASP.Bcrypt.dll /tlb /codebase
 
 	Set Bcrypt = Server.CreateObject("ClassicASP.Bcrypt")
 	
-	' Generate a hash
-	Bcrypt.Hash("myPassword",10) ' work factor >=4 <=31
+	' Generate a hash with a default work factor of 10
+	Bcrypt.Hash("myPassword")
+	
+	' Generate a hash with a custom work factor
+	Bcrypt.Hash("myPassword",12) ' >=4 <=31
 	
 	' Verify a hash
 	Bcrypt.Verify("myPassword","$2a$10$s9THkLgv6bJU9Qio8Id2N.FpB79P5w4zdsHvzMAxHK/ht3KxQnsca") ' True / False
