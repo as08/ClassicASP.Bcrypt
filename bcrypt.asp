@@ -68,4 +68,5 @@
 	
 	response.write "<p><b>Bcrypt Verified:</b> " & Bcrypt_verify(testPassword,bc_hash) & "</p>"
 	response.write "<p><b>Time to execute:</b> " & formatNumber(Timer()-start,4) & "s</p>"	
+	
 %>
