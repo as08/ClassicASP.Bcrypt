@@ -412,7 +412,7 @@ namespace BCrypt_Net
         /// <param name="workFactor">The log2 of the number of rounds of hashing to apply - the work
         ///                          factor therefore increases as 2^workFactor.</param>
         /// <returns>The hashed string.</returns>
-        public string Hash(string source, int workFactor)
+        public string Hash(string source, int workFactor = 10)
         {
             return HashPassword(source, GenerateSalt(workFactor));
         }
