@@ -1,4 +1,4 @@
-Bcrypt hashing algorithm implemented in VBscript for Classic ASP
+This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows to compute Bcrypt hashes within Classic ASP.
 
 ## INSTALLATION:
 Uses BCrypt.Net (A .Net port of jBCrypt implemented in C#)
