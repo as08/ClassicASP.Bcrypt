@@ -1,5 +1,7 @@
 This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows you to compute Bcrypt hashes.
 
+Bcrypt is a password hashing function designed by Niels Provos and David Mazières, based on the Blowfish cipher, and presented at USENIX in 1999. Besides incorporating a salt to protect against rainbow table attacks, bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
+
 ## INSTALLATION:
 Uses BCrypt.Net (A .Net port of jBCrypt implemented in C#)
 https://archive.codeplex.com/?p=bcrypt
