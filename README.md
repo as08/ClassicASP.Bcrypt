@@ -4,6 +4,12 @@ Bcrypt is a password hashing function designed by Niels Provos and David Mazièr
 
 https://en.wikipedia.org/wiki/Bcrypt
 
+Also see:
+
+https://github.com/as08/ClassicASP.Argon2
+
+https://github.com/as08/ClassicASP.PBKDF2
+
 ## INSTALLATION:
 Uses BCrypt.Net (A .Net port of jBCrypt implemented in C#)
 https://archive.codeplex.com/?p=bcrypt
