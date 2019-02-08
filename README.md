@@ -13,6 +13,10 @@ https://github.com/as08/ClassicASP.Argon2
 
 https://github.com/as08/ClassicASP.PBKDF2
 
+For a Classic ASP password hashing class that uses this COM DLL, see:
+
+https://github.com/as08/ClassicASP.PasswordHashing
+
 ## INSTALLATION:
 
 Make sure you have the lastest .NET Framework installed (tested on .NET Framework 4.7.2)
